@@ -13,7 +13,7 @@ export default defineConfig({
       config: true,
     },
 
-    includeAssets: ['public/android', 'public/ios', 'public/windows11'],
+    includeAssets: ['/android', '/ios', '/windows11'],
 
     manifest: {
       name: 'react-vite-pwa',
